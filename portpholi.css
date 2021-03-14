@@ -1,6 +1,6 @@
 body{
     text-align: center;
-    background: linear-gradient( #4287f5 0%,#4bf542 100%);
+   
 }
 
 img{
@@ -11,6 +11,7 @@ img{
 }
 #myname{
    font-family: 'Courgette', cursive;
+   color:black;
 }
 #welcome{
      padding:70px;
@@ -91,9 +92,67 @@ padding-top:20px;
 
 img {
 transition: transform .2s;
-border: 10px solid #AAAAAA;
 }
 
 img:hover {
     transform: scale(0.9);
+}
+
+#contact a{
+    font-size: 30px !important;
+    font-family: 'Courgette', cursive !important;
+      
+}
+
+#contact{
+    background-color: chartreuse;
+     padding-top: 20px;
+}
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+ 
+
+}
+
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #111;
+}
+
+li {
+  border-right: 1px solid #bbb;
+}
+
+
+
+ul {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+section
+{
+ background: #4e54c8;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #8f94fb, #4e54c8);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #8f94fb, #4e54c8); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+ Safari 7+ */
 }
